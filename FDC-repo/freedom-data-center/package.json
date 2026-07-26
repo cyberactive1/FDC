@@ -1,0 +1,14 @@
+{
+  "name": "freedom-data-center",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Single-page site for Freedom Data Center / CyberActive ADCR. Flattened to one self-contained HTML file by build.py.",
+  "scripts": {
+    "build": "python3 build.py",
+    "preview": "python3 build.py && python3 -m http.server 3000 --directory dist",
+    "clean": "rm -rf dist"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
